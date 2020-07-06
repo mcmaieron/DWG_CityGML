@@ -1,0 +1,66 @@
+leisure,building_class,building_class_code,building_function,building_function_code,transportationcomplex_class,transportationcomplex_class_code,transportationcomplex_function,transportationcomplex_function_code,trafficarea_function,trafficarea_function_code,trafficarea_usage,trafficarea_usage_code,waterbody_class,waterbody_class_code,waterbody_function,waterbody_function_code,waterbody_usage,waterbody_usage_code,landuse_class,landuse_class_code,landuse_function,landuse_function_code
+pitch,sport,1060,building for sport purposes,2550,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+swimming_pool,sport,1060,indoor swimming pool,2590,,,,,,,,,pool,1220,public swimming,1090,recreation / sports,1010,Settlement Area,1000,"Sport, leisure, recreation",1130
+park,,,,,,,,,,,,,,,,,,,Settlement Area,1000,Park,1110
+garden,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+playground,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+sports_centre,sport,1060,building for sport purposes,2550,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+picnic_table,,,,,,,,,,,,,,,,,,,,,,
+nature_reserve,,,,,,,,,,,,,,,,,,,Undeveloped Area,1100,"Sport, leisure, recreation",1130
+track,,,,,common,1010,footpath/footway,1220,recreation,31,pedestrian,1,,,,,,,Traffic,2000,Track,2050
+stadium,sport,1060,building for sport purposes,2550,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+fitness_centre,sport,1060,building for sport purposes,2550,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+golf_course,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+slipway,,,,,,,,,,,,,,,,,,,,,,
+fitness_station,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+marina,traffic,1170,dock,1570,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+recreation_ground,recreation,1050,recreational site,1260,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+firepit,,,,,,,,,,,,,,,,,,,,,,
+dog_park,,,,,,,,,,,,,,,,,,,Settlement Area,1000,Park,1110
+sauna,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+water_park,recreation,1050,recreational site,1260,,,,,,,,,pool,1220,public swimming,1090,recreation / sports,1010,Settlement Area,1000,"Sport, leisure, recreation",1130
+outdoor_seating,,,,,,,,,,,,,,,,,,,,,,
+horse_riding,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+resort,habitation,1000,hotel,1210,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+bleachers,sport,1060,building for sport purposes,2550,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+fishing,,,,,,,,,,,,,unknown,9999,unknown,9999,fishing water,1150,Settlement Area,1000,Standing Waterbody,4020
+beach_resort,habitation,1000,hotel,1210,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+miniature_golf,recreation,1050,recreational site,1260,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+dance,,,,,,,,,,,,,,,,,,,,,,
+ice_rink,recreation,1050,recreational site,1260,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+bird_hide,,,,,,,,,,,,,,,,,,,,,,
+adult_gaming_centre,recreation,1050,recreational site,1260,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+yes,,,,,,,,,,,,,,,,,,,,,,
+bowling_alley,recreation,1050,bowling alley,1290,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+amusement_arcade,recreation,1050,recreational site,1260,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+bandstand,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+swimming_area,sport,1060,indoor swimming pool,2590,,,,,,,,,pool,1220,public swimming,1090,recreation / sports,1010,Settlement Area,1000,Standing Waterbody,4020
+tanning_salon,,,train station,2480,,,,,,,,,,,,,,,,,,
+hackerspace,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+climbing,,,,,,,,,,,,,,,,,,,Undeveloped Area,1100,"Sport, leisure, recreation",1130
+escape_game,recreation,1050,recreational site,1260,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+sports_hall,sport,1060,sports hall,2560,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+summer_camp,,,summer house,1110,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+sport,sport,1060,building for sport purposes,2550,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+disc_golf_course,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+club,recreation,1050,building for social purposes,2340,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+social_club,recreation,1050,building for social purposes,2340,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+wildlife_hide,,,,,,,,,,,,,,,,,,,,,,
+maze,recreation,1050,recreational site,1260,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+barefoot,,,,,,,,,,,,,,,,,,,Undeveloped Area,1100,"Sport, leisure, recreation",1130
+trampoline,,,temple,2280,,,,,,,,,,,,,,,,,,
+schoolyard,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+pool,sport,1060,indoor swimming pool,2590,,,,,,,,,,,,,,,Settlement Area,1000,Standing Waterbody,4020
+golf_pin,,,,,,,,,,,,,,,,,,,,,,
+racetrack,,,,,,,,,,,,,,,,,,,Settlement Area,1000,Track,2050
+spa,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+grass,,,,,,,,,,,,,,,,,,,Vegetation,3000,Grassland,3010
+beach,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+bleacher,sport,1060,building for sport purposes,2550,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+piste,,,,,common,1010,footpath/footway,1220,recreation,31,pedestrian,1,,,,,,,Settlement Area,1000,Track,2050
+court,sport,1060,court,2020,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+trampoline_park,,,,,,,,,,,,,,,,,,,,,,
+hot_spring,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+park_connector,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+indoor_play,,,,,,,,,,,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+swimming,sport,1060,indoor swimming pool,2590,,,,,,,,,pool,1220,public swimming,1090,,,Settlement Area,1000,Standing Waterbody,4020

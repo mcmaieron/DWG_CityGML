@@ -1,0 +1,58 @@
+landuse,landuse_function,landuse_function_code
+residential,Residential,1010
+farmland,Agriculture,3020
+forest,Forest,3030
+grass,Grassland,3010
+meadow,Grassland,3010
+orchard,Agriculture,3020
+farmyard,Agriculture,3020
+industrial,Industry and Business,1020
+vineyard,Agriculture,3020
+reservoir,Standing Waterbody,4020
+cemetery,Cemetary,1120
+commercial,Industry and Business,1020
+allotments,Residential,1010
+basin,Standing Waterbody,4020
+retail,Industry and Business,1020
+quarry,"Open pit, quarry",1140
+construction,Special Function Area,1040
+village_green,Residential,1010
+brownfield,Agriculture,3020
+recreation_ground,"Sports, leisure and recreational",1130
+garages,Mixed use,1030
+greenhouse_horticulture,Agriculture,3020
+military,Special Function Area,1040
+logging,Agriculture,3020
+greenfield,Agriculture,3020
+railway,Railway,2020
+religious,Special Function Area,1040
+landfill,Mixed use,1030
+plant_nursery,Agriculture,3020
+aquaculture,Agriculture,3020
+farm,Agriculture,3020
+highway,Road,2010
+conservation,Special Function Area,1040
+greenery,Agriculture,3020
+salt_pond,Special Function Area,1040
+churchyard,Special Function Area,1040
+school,Special Function Area,1040
+flowerbed,Agriculture,3020
+static_caravan,Residential,1010
+plantation,Agriculture,3020
+traffic_island,Road,2010
+reservoir_watershed,Standing Waterbody,4020
+animal_keeping,Special Function Area,1040
+field,Grassland,3010
+livestock,Grassland,3010
+scrub,Grove,3040
+winter_sports,"Sports, leisure and recreational",1130
+harbour,Harbour,4030
+depot,Industry and Business,1020
+mine,Mining,1070
+garden,Grassland,3010
+agriculture,Agriculture,3020
+pond,Standing Waterbody,4020
+wasteland,Special Function Area,1040
+apiary,Agriculture,3020
+peat_cutting,Agriculture,3020
+road,Road,2010

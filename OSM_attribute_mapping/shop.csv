@@ -1,0 +1,86 @@
+shop,building_class,building_class_code,building_function,building_function_code
+convenience,"business, trade",1030,cantine,1250
+supermarket,catering,1040,building for supply ,1660
+clothes,"business, trade",1030,department store,1160
+hairdresser,"business, trade",1030,business building,1150
+bakery,catering,1040,cantine,1250
+car_repair,"business, trade",1030,business building,1150
+car,"business, trade",1030,vehicle hall,1640
+beauty,"business, trade",1030,business building,1150
+kiosk,catering,1040,kiosk,1180
+butcher,catering,1040,building for supply ,1660
+hardware,"business, trade",1030,business building,1150
+furniture,"business, trade",1030,business building,1150
+mobile_phone,"business, trade",1030,business building,1150
+florist,"business, trade",1030,business building,1150
+electronics,"business, trade",1030,business building,1150
+alcohol,catering,1040,cantine,1250
+car_parts,"business, trade",1030,business building,1150
+shoes,"business, trade",1031,department store,1160
+mall,"business, trade",1032,shopping centre,1170
+doityourself,"business, trade",1033,business building,1150
+optician,healhcare,1120,health centre or outpatients clinic,2330
+jewelry,"business, trade",1030,business building,1150
+gift,"business, trade",1031,business building,1150
+variety_store,"business, trade",1032,business building,1150
+books,"business, trade",1033,business building,1150
+department_store,"business, trade",1034,department store,1160
+bicycle,"business, trade",1035,business building,1150
+greengrocer,"business, trade",1036,building for supply ,1660
+travel_agency,"business, trade",1037,business building,1150
+sports,sport,1060,sports hall,2560
+laundry,"business, trade",1030,business building,1150
+chemist,"business, trade",1031,business building,1150
+confectionery,"business, trade",1032,business building,1150
+stationery,"business, trade",1033,business building,1150
+pet,"business, trade",1034,business building,1150
+computer,"business, trade",1035,business building,1150
+beverages,catering,1040,cantine,1250
+newsagent,"business, trade",1030,business building,1150
+dry_cleaning,"business, trade",1031,business building,1150
+tyres,"business, trade",1032,business building,1150
+vacant,"business, trade",1033,business building,1150
+motorcycle,"business, trade",1034,vehicle hall,1640
+cosmetics,"business, trade",1035,business building,1150
+garden_centre,"business, trade",1036,business building,1150
+copyshop,"business, trade",1037,business building,1150
+funeral_directors,"business, trade",1038,business building,1150
+toys,"business, trade",1039,business building,1150
+tailor,"business, trade",1040,business building,1150
+tobacco,"business, trade",1041,business building,1150
+deli,"business, trade",1042,business building,1150
+interior_decoration,"business, trade",1043,business building,1150
+seafood,catering,1040,building for supply ,1660
+ticket,"business, trade",1030,business building,1150
+massage,healhcare,1120,health centre or outpatients clinic,2330
+photo,"business, trade",1030,business building,1150
+boutique,"business, trade",1031,business building,1150
+outdoor,"business, trade",1032,business building,1150
+houseware,"business, trade",1033,business building,1150
+wine,catering,1040,building for supply ,1660
+trade,"business, trade",1030,business building,1150
+art,"business, trade",1031,business building,1150
+pastry,"business, trade",1032,business building,1150
+storage_rental,storage,1150,storage depot,3040
+paint,"business, trade",1030,business building,1150
+bookmaker,"business, trade",1031,business building,1150
+fabric,"business, trade",1032,business building,1150
+charity,"business, trade",1033,business building,1150
+second_hand,"business, trade",1034,business building,1150
+pawnbroker,"business, trade",1035,business building,1150
+bed,"business, trade",1036,business building,1150
+tattoo,"business, trade",1037,business building,1150
+lottery,"business, trade",1038,business building,1150
+antiques,"business, trade",1039,business building,1150
+medical_supply,healhcare,1120,health centre or outpatients clinic,2330
+craft,"business, trade",1039,business building,1150
+general,"business, trade",1040,business building,1150
+coffee,catering,1040,cantine,1250
+gas,"business, trade",1039,petrol / gas station,1340
+music,"business, trade",1040,business building,1150
+musical_instrument,"business, trade",1041,business building,1150
+hifi,"business, trade",1042,business building,1150
+perfumery,"business, trade",1043,business building,1150
+baby_goods,"business, trade",1044,business building,1150
+tea,"business, trade",1045,business building,1150
+wholesale,"business, trade",1046,business building,1150

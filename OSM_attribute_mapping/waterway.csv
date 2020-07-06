@@ -1,0 +1,44 @@
+waterway,building_class,building_class_code,building_function,building_function_code,cityfurniture_class,cityfurniture_class_code,cityfurniture_function,cityfurniture_function_code,transportationcomplex_class,transportationcomplex_class_code,transportationcomplex_function,transportationcomplex_function_code,trafficarea_function,trafficarea_function_code,trafficarea_usage,trafficarea_usage_code,waterbody_class,waterbody_class_code,waterbody_function,waterbody_function_code,waterbody_usage,waterbody_usage_code,landuse_class,landuse_class_code,landuse_function,landuse_function_code
+stream,,,,,,,,,waterway,1070,waterway I order ,2600,unknown,9999,"boat, ferry, ship",9,river / stream,1030,waterway,1050,,,Water,4000,River,4010
+ditch,,,,,,,,,,,,,,,unknown,9999,ditch,1040,sewage system,1080,,,Water,4000,River,4010
+river,,,,,,,,,waterway,1070,navigable river ,2610,unknown,9999,"boat, ferry, ship",9,river / stream,1030,waterway,1050,,,Water,4000,River,4010
+drain,,,,,,,,,,,,,unknown,9999,unknown,9999,,,sewage system,1080,,,Water,4000,River,4010
+canal,,,,,,,,,waterway,1070,waterway I order ,2600,unknown,9999,"boat, ferry, ship",9,canal,1170,sewage system,1080,,,Water,4000,River,4010
+riverbank,,,,,,,,,,,,,,,,,,,,,,,Undeveloped Area,1100,Untiled land,3080
+dam,,,,,,,,,,,,,,,,,,,,,,,Settlement Area,1000,Special Function Area,1040
+weir,,,,,,,,,,,,,,,,,body of standing water,1080,waterway,1050,sewer,1060,Water,4000,Standing Waterbody,4020
+rapids,,,,,,,,,,,,,,,,,rapids,1100,waterway,1050,,,Water,4000,River,4010
+waterfall,,,,,,,,,,,,,,,,,waterfall,1090,unknown,9999,,,Water,4000,River,4010
+lock_gate,,,,,,,,,,,,,,,,,,,,,,,,,,
+artificial,,,,,,,,,,,,,,,,,,,,,,,,,,
+drystream,,,,,,,,,,,,,,,,,ephemeral watercourse,1130,waterway,1050,,,Undeveloped Area,1100,Untiled land,3080
+wadi,,,,,,,,,,,,,,,,,,,,,,,,,,
+dock,traffic,1170,dock,1570,,,,,,,,,,,,,,,,,,,,,,
+soakhole,,,,,,,,,,,,,,,,,,,,,,,,,,
+milestone,,,,,traffic,1000,milestone,1120,,,,,,,,,,,,,,,,,,
+boatyard,traffic,1170,shipyard ,1560,,,,,,,,,,,,,,,,,,,,,,
+pressurised,,,,,,,,,,,,,,,,,,,,,,,,,,
+tidal_channel,,,,,,,,,,,,,,,,,tidal waterbody,1010,waterway,1050,,,Water,4000,River,4010
+derelict_canal,,,,,,,,,,,,,,,,,canal,1170,sewage system,1080,,,Water,4000,River,4010
+brook,,,,,,,,,waterway,1070,waterway I order ,2600,unknown,9999,"boat, ferry, ship",9,river / stream,1030,waterway,1050,,,Water,4000,River,4010
+fairway,,,,,,,,,,,,,,,,,,,,,,,,,,
+fuel,,,,,,,,,,,,,,,,,,,,,,,,,,
+pond,,,,,,,,,,,,,,,,,lake / pond,1060,waterway,1050,,,Water,4000,Standing Waterbody,4020
+fish_pass,,,,,,,,,,,,,,,,,,,,,,,Water,4000,Standing Waterbody,4020
+lock,,,,,,,,,,,,,,,,,,,,,,,,,,
+drainage_channel,,,,,,,,,,,,,unknown,9999,unknown,9999,canal,1170,sewage system,1080,,,Water,4000,River,4010
+turning_point,,,,,,,,,,,,,,,,,,,,,,,,,,
+sanitary_dump_station,maintainence and waste management,1110,building for disposal ,1800,,,,,,,,,,,,,,,,,,,,,,
+flow_control,,,,,,,,,,,,,,,,,,,,,,,,,,
+lake,,,,,,,,,,,,,,,,,lake / pond,1060,,,,,Water,4000,Standing Waterbody,4020
+connector,,,,,,,,,,,,,,,,,,,,,,,,,,
+take_right_side,,,,,,,,,,,,,,,,,,,,,,,,,,
+take_left_side,,,,,,,,,,,,,,,,,,,,,,,,,,
+water_point,,,,,,,,,,,,,,,,,spring / water hole,1050,watering place,1130,"fishing water, water protection area","1150, 1180",Water,4000,Standing Waterbody,4020
+reservoir,,,,,,,,,,,,,,,,,resevoir,1190,reservoir,1020,,,Water,4000,Standing Waterbody,4020
+depth,,,,,,,,,,,,,,,,,,,,,,,,,,
+sign,,,,,,,,,,,,,,,,,,,,,,,,,,
+spillway,,,,,,,,,,,,,,,,,spring / water hole,1050,watering place,1130,,,Water,4000,Standing Waterbody,4020
+pumping_station,function,1180,pumping station,1790,,,,,,,,,,,,,,,,,,,,,,
+stream_end,,,,,,,,,,,,,,,,,,,,,,,,,,
+oxbow,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,69 @@
+building,building_class,code_building_class,building_function,building_function_code
+house,habitation,1000,,
+residential,habitation,1000,residential building,1000
+garage,traffic,1170,garage,1630
+apartments,habitation,1000,residential building,
+detached,habitation,1000,,
+hut,habitation,1000,bothy,2640
+industrial,industry,1160,industrial building,1310
+shed,function,1180,engine shed,1510
+commercial,"business, trade",1030,business building,1150
+school,"schools, education, research",1100,building for education and research,2070
+garages,traffic,1170,garage,1630
+construction,function,1180,,
+retail,"business, trade",1030,business building,1150
+greenhouse,maintainence and waste management,1110,green house,2620
+barn,"agriculture, forestry",1090,barn,1880
+farm_auxiliary,"agriculture, forestry",1090,building for agrarian and forestry,1870
+church,church institution,1080,church,2220
+warehouse,storage,1150,depot,1370
+semidetached_house,habitation,1000,,
+service,"business, trade",1030,,
+farm,"agriculture, forestry",1090,building for agrarian and forestry,1870
+cabin,habitation,1000,bothy,2640
+civic,recreation,1050,building for social purposes,2250
+public,administration,1020,community center,2250
+office,"business, trade",1030,office building,1120
+university,"schools, education, research",1100,college or university,2100
+manufacture,"business, trade",1030,business building,1150
+hospital,healthcare,1120,hospital,2310
+bungalow,habitation,1000,bothy,2640
+hotel,habitation,100,hotel,1210
+chapel,church institution,1080,chapel,2240
+hangar,traffic,1170,hangar,1540
+kindergarten,"schools, education, research",1100,kindergarten or nursery,2380
+mosque,church institution,1080,mosque,2270
+dormitory,habitation,1000,,
+storage_tank,storage,1150,,
+train_station,traffic,1170,train station,2480
+carport,traffic,1170,garage,1630
+college,"schools, education, research",1100,college or university,2100
+stable,"agriculture, forestry",1090,stall,1890
+transportation,traffic,1170,,
+bunker,security,1140,bunker,2430
+transformer_tower,communicating,1130,transformer station,1710
+commercial;residential,"business, trade",1030,residential- and commercial building,1080
+allotment_house,habitation,1000,,
+silo,storage,1150,building for agrarian and forestry,1870
+slurry_tank,maintainence and waste management,1110,,
+temple,church institution,1080,temple,2280
+cowshed,"agriculture, forestry",1090,building for agrarian and forestry,1870
+toilets,sanitation,1010,toilet,1830
+shop,"business, trade",1030,business building,1150
+parking,traffic,1170,parking level,1620
+supermarket,"business, trade",1030,business building,1150
+kiosk,"business, trade",1030,kiosk,1180
+grandstand,sport,1060,building for sport purposes,2550
+boathouse,habitation,1000,boathouse,1590
+stadium,sport,1060,building for sport purposes,2550
+agricultural,"agriculture, forestry",1090,building for agrarian and forestry,1870
+stilt_house,habitation,1000,,
+pavilion,function,1180,pavilion,1200
+duplex,habitation,1000,residential building,1000
+government,administration,1020,district government,2050
+factory,industry,1160,factory,1320
+tower,function,1180,,
+dwelling_house,"business, trade",1030,business building,1150
+chalet,habitation,1000,bothy,2640
+wayside_shrine,church institution,1080,chapel,2240
+shelter,habitation,1000,homeless shelter,2370

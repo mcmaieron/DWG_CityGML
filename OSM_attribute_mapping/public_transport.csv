@@ -1,0 +1,21 @@
+public_transport,building_class,building_class_code,building_function,building_function_code,cityfurniture_class,cityfurniture_class_code,cityfurniture_function,cityfurniture_function_code,transportationcomplex_class,transportationcomplex_class_code,transportationcomplex_function,transportationcomplex_function_code,trafficarea_function,trafficarea_function_code,trafficarea_usage,trafficarea_usage_code
+platform,,,,,,,,,common,1010,,,train platform,19,train,5
+stop_position,,,,,,,,,common,1010,stop,1910,bus_lay_by,32,"bus, taxi",4
+stop_area,,,,,,,,,common,1010,stop,1910,bus_lay_by,32,"bus, taxi",4
+station,traffic,1170,building for bus station ,2520,,,,,common,1010,station,1920,,,,
+stop_area_group,,,,,,,,,common,1010,stop,1910,bus_lay_by,32,"bus, taxi",4
+pole,,,,,traffic,1000,pole,1270,common,1010,,,,,,
+entrance_pass,,,,,traffic,1000,entrance shaft,1370,common,1010,,,,,,
+entrance,,,,,traffic,1000,entrance shaft,1370,common,1010,,,,,,
+stop,,,,,,,bus stop,1110,common,1010,stop,1910,bus_lay_by,32,"bus, taxi",4
+halt,,,,,,,,,common,1010,,,,,,
+shelter,,,,,,,,,common,1010,,,,,,
+platform_section_sign,,,,,,,,,common,1010,,,,,,
+info_board,,,,,,,,,common,1010,,,,,,
+destination_display,,,,,,,,,common,1010,,,,,,
+bus_stop,,,,,traffic,1000,bus stop,1110,common,1010,stop,1910,bus_lay_by,32,"bus, taxi",4
+departures_board,,,,,,,,,common,1010,,,,,,
+bus,,,,,traffic,1000,bus stop,1110,common,1010,stop,1910,bus_lay_by,32,"bus, taxi",4
+service_center,,,,,,,,,common,1010,service area,1700,,,,
+waiting_room,traffic,1170,waiting hall,1490,,,,,common,1010,,,,,,
+train_station,traffic,1170,train station,2480,,,,,common,1010,station,1920,train platform,19,train,5

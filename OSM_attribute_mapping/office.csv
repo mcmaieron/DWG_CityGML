@@ -1,0 +1,64 @@
+office,building_class,building_class_code,building_function,building_function_code
+government,administration,1020,district government,2050
+company,industry,1160,factory,1320
+estate_agent,"business, trade",1030,office building,1120
+insurance,"business, trade",1030,insurance,1140
+lawyer,"business, trade",1030,office building,1120
+educational_institution,"schools, education, reseach",1100,building for education and research,2070
+telecommunication,communicating,1130,building for telecommunications,1760
+association,function,1180,building for social purposes,2340
+administrative,administration,1020,administration building,1970
+employment_agency,"business, trade",1030,office building,1120
+accountant,"business, trade",1030,office building,1120
+research,"schools, education, reseach",1100,building for education and research,2070
+diplomatic,administration,1020,administration building,1970
+religion,church institution,1080,religious building,2210
+architect,"business, trade",1030,office building,1120
+financial,"business, trade",1030,office building,1120
+tax_advisor,"business, trade",1030,office building,1120
+newspaper,"business, trade",1030,office building,1120
+political_party,"business, trade",1030,office building,1120
+notary,"business, trade",1030,office building,1120
+advertising_agency,"business, trade",1030,office building,1120
+travel_agent,"business, trade",1030,office building,1120
+energy_supplier,"business, trade",1030,office building,1120
+therapist,healthcare,1120,building for health care ,2300
+physician,healthcare,1120,building for health care ,2300
+logistics,"business, trade",1030,office building,1120
+foundation,"business, trade",1030,office building,1120
+coworking,"business, trade",1030,office building,1120
+water_utility,"business, trade",1030,office building,1120
+financial_advisor,"business, trade",1030,office building,1120
+forestry,"agriculture, forestry",1090,building for agrarian and forestry ,1870
+consulting,"business, trade",1030,office building,1120
+charity,"business, trade",1030,office building,1120
+property_management,"business, trade",1030,office building,1120
+guide,"business, trade",1030,office building,1120
+parish,church institution,1080,religious building,2210
+moving_company,"business, trade",1030,office building,1120
+construction_company,"business, trade",1030,office building,1120
+vacant,"business, trade",1030,office building,1120
+medical,healthcare,1120,building for health care ,2300
+quango,administration,1020,administration building,1970
+surveyor,"business, trade",1030,office building,1120
+engineer,"business, trade",1030,office building,1120
+camping,,,,
+publisher,"business, trade",1030,office building,1120
+engineering,"business, trade",1030,office building,1120
+university,"schools, education, reseach",1100,college or university,2100
+cooperative,"business, trade",1030,office building,1120
+taxi,,,,
+union,"business, trade",1030,office building,1120
+transport,"business, trade",1030,office building,1120
+security,security,1140,office building,1120
+geodesist,"business, trade",1030,office building,1120
+tax,"business, trade",1030,tax office,2060
+courier,communicating,1130,post office,2000
+health_insurance,healthcare,1120,insurance,1140
+construction,"business, trade",1030,office building,1120
+design,"business, trade",1030,office building,1120
+marketing,"business, trade",1030,office building,1120
+podologist,healthcare,1120,building for health care ,2300
+administration,administration,1020,administration building,1970
+solicitor,"business, trade",1030,office building,1120
+education,"schools, education, reseach",1100,building for education and research,2070

@@ -1,0 +1,67 @@
+natural,solitayvegetationobject_class,solitayvegetationobject_class_code,waterbody_class,waterbody_class_code,waterbody_function,waterbody_function_code,waterbody_usage,waterbody_usage_code,landuse_class,landuse_class_code,landuse_function,landuse_function_code
+tree,medium high plants,1020,,,,,,,,,,
+water,,,unknown,9999,unknown,9999,unknown,9999,,,,
+wood,medium high plants,1020,,,,,,,,,,
+scrub,shrub,1000,,,,,,,,,,
+wetland,,,swamp,1110,unknown,9999,unknown,9999,,,,
+coastline,,,,,,,,,,,,
+grassland,grasses,1040,,,,,,,Vegetation,3000,Grassland,3010
+tree_row,medium high plants,1020,,,,,,,,,,
+peak,,,,,,,,,,,,
+bare_rock,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+cliff,,,,,,,,,,,,
+heath,,,,,,,,,Undeveloped Area,1100,Heath,3050
+sand,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+rock,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+scree,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+beach,,,,,,,,,Settlement Area,1000,"Sport, leisure, recreation",1130
+spring,,,spring / water hole,1050,unknown,9999,unknown,9999,,,,
+ridge,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+land,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+bay,,,sea,1000,unknown,9999,unknown,9999,,,,
+glacier,,,,,,,,,,,,
+cave_entrance,,,,,,,,,,,,
+saddle,,,,,,,,,,,,
+shingle,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+reef,,,,,,,,,Vegetation,3000,Agriculture,3020
+valley,,,,,,,,,,,,
+stone,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+fell,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+cape,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+mud,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+hill,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+sinkhole,,,sinkhole (karst),1120,unknown,9999,unknown,9999,,,,
+marsh,,,,,,,,,Undeveloped Area,1100,Marsh,3070
+landform,,,,,,,,,,,,
+grass,,,,,,,,,Vegetation,3000,Grassland,3010
+yes,,,,,,,,,,,,
+volcano,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+birds_nest,,,,,,,,,,,,
+earth_bank,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+shrub,shrub,1000,,,,,,,,,,
+landslide,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+islet,,,,,,,,,,,,
+crevasse,,,,,,,,,,,,
+strait,,,,,,,,,,,,
+gully,,,,,,,,,,,,
+shoal,,,,,,,,,,,,
+termite_mound,,,,,,,,,,,,
+hot_spring,,,spring / water hole,1050,unknown,9999,unknown,9999,,,,
+arete,,,,,,,,,,,,
+desert,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+sink_hole,,,sinkhole (karst),1120,unknown,9999,unknown,9999,,,,
+tree_group,,,,,,,,,,,,
+tundra,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+hummock,,,,,,,,,,,,
+slope,,,,,,,,,,,,
+waterfall,,,waterfall,1090,unknown,9999,unknown,9999,,,,
+riverbank,,,,,,,,,,,,
+dune,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+mountain_range,,,,,,,,,,,,
+bedrock,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+island,,,,,,,,,,,,
+rocks,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+peninsula,,,,,,,,,,,,
+ground,,,,,,,,,Undeveloped Area,1100,Untilled land,3080
+tree_stump,,,,,,,,,,,,
+forest,,,,,,,,,Vegetation,3000,Forest,3030
