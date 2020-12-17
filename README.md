@@ -11,7 +11,7 @@ were performed manually, the open-source [QGIS](https://qgis.org/en/site/) was u
   This folder contains all FME Workspaces created in the process of generating the semantic 3D city model of Porto Alegre. The workspaces were commented on, explaining the steps taken to achieve the necessary data integration. Bookmarks were used to organize the implementation according to the implemented CityGML modules.
 * **OSM Attribute mapping**
 
-The spreadsheets generated in the process of mapping attributes from the OSM database to the attributes of CityGML codelists are available in this folder.
+  The spreadsheets generated in the process of mapping attributes from the OSM database to the attributes of CityGML codelists are available in this folder.
  
 ## Software
 **Feature Manipulation Engine (FME)**
