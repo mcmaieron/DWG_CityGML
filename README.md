@@ -1,4 +1,4 @@
-# Digital 3D Model of Porto Alegre
+# 2D vector data to CityGML
 ## General Information
 This project comes from the case study present in my master's thesis. In this project a partial semantic 3D city model of Porto Alegre - Brazil has been created based on datasets provided by the [Municipality of Porto Alegre (PMPA)](http://www2.portoalegre.rs.gov.br/spm/default.php?p_secao=310). Different 3D feature types were derived from existing public 2D and 3D datasets using spatial and semantic transformations. The resulting 3D city model is represented in a homogenized and integrated way using the international standard [CityGML](https://www.citygml.org/) of the [Open Geospatial Consortium (OGC)](http://www.opengeospatial.org/). This project also presents an approach for integrating open data, performing the semantic “enrichment” of the instances associating official data with Volunteered Geographic Information (VGI) data from [OpenStreetMaps (OSM)](https://www.openstreetmap.org/).
 
