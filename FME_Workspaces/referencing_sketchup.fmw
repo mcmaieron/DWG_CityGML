@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        F:\Programas\FME\fme.exe F:\Mestrado\Computacao\Dissertacao_Maieron\implementacao\FME\POA\referenciamento_sketchup.fmw
+#        F:\Programas\FME\fme.exe F:\Mestrado\Computacao\Dissertacao_Maieron\implementacao\FME\POA\referencing_sketchup.fmw
 #              --SourceDataset_OGCKML "F:\Mestrado\Computacao\Dissertacao_Maieron\implementacao\CityGML_POA\3_roof.kmz"
 #              --DestDataset_CITYGML "F:\Mestrado\Computacao\Dissertacao_Maieron\implementacao\CityGML_POA\roof_georefenced.gml"
 #    
@@ -12,14 +12,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="4832.79 2073"
+#!   DOC_EXTENTS="3817.15 2073"
 #!   DOC_TOP_LEFT="20 -2308"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="20714"
-#!   FME_DOCUMENT_GUID="0becc170-b56d-4650-8600-d69af05be3e8"
-#!   FME_DOCUMENT_PRIORGUID="55103635-2ff3-4b1f-927f-5e69efde47d4,168012ad-07fc-455f-8651-b63324fa69e8"
+#!   FME_BUILD_NUM="20787"
+#!   FME_DOCUMENT_GUID="5defc581-e86c-4080-ae49-5eeb85948f79"
+#!   FME_DOCUMENT_PRIORGUID="55103635-2ff3-4b1f-927f-5e69efde47d4,168012ad-07fc-455f-8651-b63324fa69e8,0becc170-b56d-4650-8600-d69af05be3e8,4724e222-689d-4445-816d-95b4fc87bbfd"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -27,8 +27,8 @@
 #!   FME_STROKE_MAX_DEVIATION="1"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2020.2.0.0 (20200713 - Build 20714 - WIN64)"
-#!   LAST_SAVE_DATE="2020-10-28T21:06:34"
+#!   LAST_SAVE_BUILD="FME(R) 2020.2.0.0 (20201027 - Build 20787 - WIN64)"
+#!   LAST_SAVE_DATE="2021-01-05T18:05:20"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,10 +47,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-4031.29 250.003"
+#!   VIEW_POSITION="-262.503 -150.002"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="40"
+#!   ZOOM_SCALE="100"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -66,7 +66,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="kml_atom_link_rel kml_buffer kml_link_view_refresh_time kml_int16 kml_scale_y kml_real64 kml_liststyle_item_icon kml_buffer kml_gx_camera_altitude_mode kml_char(50) kml_hotspot_x kml_int16 kml_camera_roll kml_real64 kml_overlayxy_y kml_real64 kml_camera_gx_timespan_end kml_datetime fme_type kml_char(50) kml_lookat_gx_timestamp_when kml_datetime fme_dataset kml_char(50) kml_tessellate kml_int16 kml_description_raw_text kml_buffer fme_geometry kml_char(50) kml_hotspot_y kml_int16 kml_location_latitude kml_real64 kml_balloon_color kml_char(10) kml_latlonbox_west kml_real64 kml_polystyle_fill kml_real64 kml_size_yunits kml_char(20) kml_cookie kml_buffer kml_lookat_longitude kml_real64 kml_snippet_raw_text kml_buffer fme_sweep_angle kml_real64 kml_rotationxy_yunits kml_char(20) kml_gx_altitude_mode kml_char(50) kml_link_name kml_buffer kml_overlayxy_x kml_real64 kml_style_url_normal kml_buffer kml_tour_stop_tour_name kml_buffer kml_gx_balloon_visibility kml_int16 kml_icon_http_query kml_buffer kml_document_path kml_buffer fme_fill_opacity kml_real64 kml_icon kml_buffer kml_balloonstyle_bgcolor kml_char(10) kml_gx_timespan_end kml_datetime kml_extended_data_xmlns_prefix kml_buffer kml_orientation_tilt kml_real64 kml_altitude kml_real64 kml_extended_data_xmlns_url kml_buffer kml_latlonbox_east kml_real64 kml_atom_author_email kml_buffer kml_icon_refresh_interval kml_int16 fme_fill_color kml_char(50) kml_tour_stop_display_balloon kml_char(3) kml_location_longitude kml_real64 kml_balloon_opacity kml_real64 kml_labelstyle_color_mode kml_char(20) kml_icon_view_refresh_mode kml_char(50) kml_open kml_int16 kml_tour_stop_delay_type kml_char(10) kml_icon_href kml_buffer kml_atom_link_href kml_buffer kml_link_refresh_mode kml_char(50) kml_tour_stop_view_tilt kml_char(25) kml_imagepyramid_maxwidth kml_int16 kml_link_description kml_buffer kml_icon_view_refresh_time kml_int16 kml_description kml_buffer multi_reader_id kml_int32 fme_opacity kml_real64 kml_tour_stop_flyto_duration kml_int16 kml_camera_altitude kml_real64 kml_atom_author_name kml_buffer kml_gx_timespan_begin kml_datetime kml_target_style_normal kml_buffer kml_imagepyramid_maxheight kml_int16 kml_id kml_buffer kml_liststyle_item_icon{}.state kml_char(50) kml_location_altitude kml_real64 kml_lookat_tilt kml_real64 kml_latlonaltbox_west kml_real64 kml_viewvolume_topfov kml_int16 kml_create_info_point kml_char(3) fme_primary_axis kml_real64 kml_target_style kml_buffer kml_link_view_format kml_buffer multi_reader_type kml_char(50) kml_refresh_visibility kml_int16 kml_min_refresh_period kml_real64 kml_linestyle_color_mode kml_char(20) kml_tour_stop_view_perspective kml_char(15) kml_max_session_length kml_real64 kml_style_url_highlight kml_buffer kml_target_href kml_buffer kml_polystyle_color kml_char(10) kml_timespan_begin kml_datetime kml_latlonaltbox_east kml_char(255) kml_animated_update kml_buffer kml_latlonaltbox_south kml_real64 fme_secondary_axis kml_real64 kml_orientation_heading kml_real64 kml_icon_temp_file_location kml_buffer kml_lookat_heading kml_real64 kml_size_y kml_real64 kml_schema_data{}.name kml_buffer kml_gx_flyto_mode kml_char(10) kml_polystyle_color_mode kml_char(20) kml_screenxy_x kml_real64 kml_size_xunits kml_char(20) kml_lookat_latitude kml_real64 kml_data{}.value kml_buffer kml_size_x kml_real64 kml_roll kml_real64 kml_camera_altitude_mode kml_char(50) kml_fly_to_view kml_int16 kml_imagepyramid_gridorigin kml_buffer multi_reader_keyword kml_char(50) kml_common_style kml_buffer kml_camera_latitude kml_real64 kml_schema_url kml_buffer kml_expires kml_datetime kml_lookat_altitude_mode kml_char(20) fme_color kml_char(50) kml_link_snippet kml_buffer kml_hotspot_yunits kml_char(20) kml_gx_duration kml_int16 fme_rotation kml_real64 kml_parent kml_buffer kml_latlonaltbox_max_altitude kml_real64 kml_imagepyramid_tilesize kml_real64 kml_lod_min_lod_pixels kml_real64 kml_snippet kml_buffer fme_basename kml_char(50) kml_lookat_gx_timespan_end kml_datetime kml_linestyle_physical_width kml_real64 kml_update_mode kml_char(10) kml_camera_gx_timestamp_when kml_datetime kml_draw_order kml_int16 fme_feature_type kml_char(50) kml_link_href kml_buffer kml_gx_play_mode kml_char(20) kml_tour_stop_delay_duration kml_int16 kml_iconstyle_color_mode kml_char(20) kml_rotation kml_real64 kml_latlonaltbox_altitude_mode kml_char(50) kml_document kml_buffer kml_labelstyle_color kml_char(10) kml_latlonbox_south kml_real64 kml_data{}.display_name_raw_text kml_buffer kml_viewvolume_near kml_int16 kml_camera_tilt kml_real64 kml_link_refresh_interval kml_real64 kml_linestyle_width kml_real64 kml_labelstyle_scale kml_real64 kml_lookat_altitude kml_real64 kml_lod_max_fade_extent kml_real64 kml_viewvolume_bottomfov kml_int16 kml_camera_longitude kml_real64 kml_label_color kml_char(50) kml_timespan_end kml_datetime kml_icon_view_bound_scale kml_real64 kml_latlonbox_north kml_real64 kml_link_snippet_max_lines kml_int16 kml_icon_opacity kml_real64 kml_iconstyle_color kml_char(10) kml_target_style_highlight kml_buffer kml_tour kml_buffer kml_extrude kml_int16 kml_timestamp_when kml_datetime kml_tour_stop_tour_duration kml_int16 kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_balloonstyle_raw_text kml_buffer kml_liststyle_list_item_type kml_char(50) kml_tour_stop_flyto_mode kml_char(20) kml_rotationxy_xunits kml_char(20) kml_lookat_range kml_real64 kml_latlonbox_rotation kml_real64 kml_altitude_mode kml_char(50) kml_gx_timestamp_when kml_datetime kml_polystyle_outline kml_int16 kml_lod_min_fade_extent kml_real64 kml_overlayxy_xunits kml_char(20) kml_liststyle_bgcolor kml_char(50) kml_latlonaltbox_min_altitude kml_real64 kml_overlayxy_yunits kml_char(20) kml_iconstyle_scale kml_real64 fme_text_size kml_real64 kml_viewvolume_leftfov kml_int16 kml_screenxy_xunits kml_char(20) kml_icon_color kml_char(50) kml_icon_refresh_mode kml_char(50) kml_balloon_text_opacity kml_real64 kml_style_id kml_buffer kml_lookat_gx_timespan_begin kml_datetime kml_latlonaltbox_north kml_real64 kml_screenxy_yunits kml_char(20) kml_scale_z kml_real64 multi_reader_full_id kml_int32 fme_start_angle kml_real64 kml_balloon_text_color kml_char(10) kml_style_url kml_buffer kml_balloonstyle_text_color kml_char(10) kml_linestyle_label_visibility kml_boolean kml_visibility kml_int16 fme_pen_opacity kml_real64 kml_data{}.display_name kml_buffer kml_sort_value kml_buffer kml_href kml_buffer kml_icon_view_format kml_buffer kml_extended_data_xml kml_buffer kml_screenxy_y kml_real64 kml_raw_text kml_buffer kml_linestyle_color kml_char(10) kml_phone_number kml_buffer kml_tour_stop_view_heading kml_char(25) kml_hotspot_xunits kml_char(20) kml_gx_lookat_altitude_mode kml_char(50) kml_liststyle_item_icon{}.href kml_buffer kml_tour_stop_view_range kml_char(25) kml_link_http_query kml_buffer kml_link_view_bound_scale kml_real64 kml_viewvolume_rightfov kml_int16 kml_camera_gx_timespan_begin kml_datetime kml_rotationxy_y kml_real64 kml_balloonstyle_text kml_buffer kml_lod_max_lod_pixels kml_real64 kml_document_href kml_buffer kml_camera_heading kml_real64 kml_data{}.name kml_buffer kml_shape kml_buffer kml_color kml_char(8) kml_label_opacity kml_real64 kml_orientation_roll kml_real64 kml_address kml_buffer kml_name kml_buffer fme_text_string kml_char(50) kml_schema_data{}.value kml_buffer kml_scale_x kml_real64 kml_description_text kml_buffer kml_link_view_refresh_mode kml_char(50) kml_message kml_buffer kml_iconstyle_heading kml_real64 kml_rotationxy_x kml_real64 kml_attribute_table_title kml_buffer"
+#!   EXPOSABLE_ATTRS="kml_camera_tilt kml_real64 kml_polystyle_fill kml_real64 kml_gx_balloon_visibility kml_int16 kml_raw_text kml_buffer kml_camera_roll kml_real64 kml_overlayxy_xunits kml_char(20) kml_lookat_altitude kml_real64 kml_message kml_buffer kml_min_refresh_period kml_real64 kml_latlonbox_rotation kml_real64 kml_fly_to_view kml_int16 kml_tour_stop_view_heading kml_char(25) fme_basename kml_char(50) kml_open kml_int16 kml_screenxy_xunits kml_char(20) kml_lookat_gx_timestamp_when kml_datetime kml_polystyle_color_mode kml_char(20) kml_tour_stop_flyto_duration kml_int16 kml_max_session_length kml_real64 kml_iconstyle_heading kml_real64 kml_document kml_buffer kml_shape kml_buffer kml_viewvolume_leftfov kml_int16 kml_imagepyramid_tilesize kml_real64 kml_polystyle_outline kml_int16 kml_tessellate kml_int16 kml_common_style kml_buffer kml_target_href kml_buffer kml_hotspot_x kml_int16 kml_balloon_opacity kml_real64 kml_latlonaltbox_min_altitude kml_real64 kml_balloonstyle_text_color kml_char(10) kml_rotationxy_x kml_real64 kml_name kml_buffer kml_description_text kml_buffer kml_viewvolume_near kml_int16 kml_cookie kml_buffer kml_liststyle_item_icon{}.href kml_buffer kml_labelstyle_color_mode kml_char(20) kml_id kml_buffer kml_gx_timespan_end kml_datetime kml_labelstyle_color kml_char(10) fme_dataset kml_char(50) kml_imagepyramid_maxwidth kml_int16 kml_rotationxy_y kml_real64 kml_snippet_raw_text kml_buffer kml_linestyle_label_visibility kml_boolean kml_latlonbox_west kml_real64 multi_reader_full_id kml_int32 kml_camera_altitude_mode kml_char(50) kml_parent kml_buffer kml_camera_latitude kml_real64 fme_text_string kml_char(50) fme_color kml_char(50) kml_snippet kml_buffer kml_latlonaltbox_north kml_real64 kml_label_color kml_char(50) fme_pen_opacity kml_real64 kml_address kml_buffer fme_opacity kml_real64 kml_lookat_tilt kml_real64 kml_camera_gx_timespan_begin kml_datetime kml_hotspot_xunits kml_char(20) kml_gx_timestamp_when kml_datetime kml_data{}.display_name_raw_text kml_buffer kml_linestyle_color kml_char(10) fme_type kml_char(50) kml_linestyle_physical_width kml_real64 kml_schema_data{}.name kml_buffer kml_rotation kml_real64 kml_lookat_gx_timespan_end kml_datetime kml_atom_link_rel kml_buffer fme_fill_color kml_char(50) kml_location_latitude kml_real64 kml_linestyle_color_mode kml_char(20) kml_icon_view_format kml_buffer kml_lod_min_lod_pixels kml_real64 kml_icon kml_buffer kml_balloonstyle_raw_text kml_buffer kml_link_refresh_interval kml_real64 kml_imagepyramid_gridorigin kml_buffer kml_atom_author_email kml_buffer kml_update_mode kml_char(10) kml_description kml_buffer kml_altitude_mode kml_char(50) kml_balloon_text_color kml_char(10) kml_balloonstyle_bgcolor kml_char(10) kml_lookat_latitude kml_real64 kml_rotationxy_xunits kml_char(20) kml_viewvolume_topfov kml_int16 kml_draw_order kml_int16 kml_link_refresh_mode kml_char(50) fme_rotation kml_real64 kml_data{}.value kml_buffer kml_data{}.display_name kml_buffer kml_tour_stop_view_range kml_char(25) kml_iconstyle_color_mode kml_char(20) kml_size_yunits kml_char(20) kml_icon_refresh_mode kml_char(50) kml_screenxy_y kml_real64 multi_reader_keyword kml_char(50) kml_document_href kml_buffer kml_link_http_query kml_buffer kml_size_y kml_real64 kml_altitude kml_real64 kml_overlayxy_yunits kml_char(20) kml_overlayxy_x kml_real64 kml_timespan_begin kml_datetime kml_extrude kml_int16 kml_hotspot_yunits kml_char(20) fme_secondary_axis kml_real64 kml_hotspot_y kml_int16 kml_camera_longitude kml_real64 kml_latlonaltbox_altitude_mode kml_char(50) kml_sort_value kml_buffer kml_camera_gx_timestamp_when kml_datetime kml_latlonaltbox_max_altitude kml_real64 fme_geometry kml_char(50) kml_labelstyle_scale kml_real64 kml_icon_view_refresh_mode kml_char(50) kml_style_url_highlight kml_buffer kml_camera_altitude kml_real64 multi_reader_type kml_char(50) fme_feature_type kml_char(50) kml_lookat_gx_timespan_begin kml_datetime kml_link_view_bound_scale kml_real64 kml_icon_opacity kml_real64 kml_schema_data{}.value kml_buffer kml_linestyle_width kml_real64 kml_latlonaltbox_south kml_real64 kml_lookat_altitude_mode kml_char(20) kml_latlonbox_south kml_real64 kml_link_view_format kml_buffer kml_icon_color kml_char(50) multi_reader_id kml_int32 kml_style_id kml_buffer kml_camera_gx_timespan_end kml_datetime kml_lookat_heading kml_real64 kml_color kml_char(8) kml_tour_stop_delay_duration kml_int16 kml_size_x kml_real64 kml_location_altitude kml_real64 kml_scale_x kml_real64 kml_atom_author_name kml_buffer kml_roll kml_real64 kml_tour_stop_tour_duration kml_int16 kml_document_path kml_buffer kml_icon_http_query kml_buffer kml_phone_number kml_buffer kml_data{}.name kml_buffer kml_lod_max_lod_pixels kml_real64 kml_href kml_buffer kml_iconstyle_color kml_char(10) kml_gx_play_mode kml_char(20) kml_gx_timespan_begin kml_datetime kml_style_url kml_buffer kml_balloonstyle_text kml_buffer kml_liststyle_item_icon kml_buffer kml_latlonbox_north kml_real64 kml_target_style kml_buffer kml_create_info_point kml_char(3) kml_tour_stop_view_tilt kml_char(25) kml_gx_altitude_mode kml_char(50) kml_screenxy_x kml_real64 kml_icon_temp_file_location kml_buffer kml_label_opacity kml_real64 kml_scale_y kml_real64 fme_fill_opacity kml_real64 kml_liststyle_bgcolor kml_char(50) kml_extended_data_xml kml_buffer kml_liststyle_item_icon{}.state kml_char(50) kml_link_href kml_buffer kml_link_snippet kml_buffer kml_gx_latlonaltbox_altitude_mode kml_char(50) fme_sweep_angle kml_real64 kml_tour_stop_tour_name kml_buffer kml_link_description kml_buffer kml_balloon_text_opacity kml_real64 kml_style_url_normal kml_buffer kml_rotationxy_yunits kml_char(20) kml_icon_view_refresh_time kml_int16 kml_link_view_refresh_mode kml_char(50) kml_icon_view_bound_scale kml_real64 kml_location_longitude kml_real64 kml_lod_max_fade_extent kml_real64 kml_target_style_highlight kml_buffer fme_primary_axis kml_real64 kml_timespan_end kml_datetime kml_schema_url kml_buffer kml_orientation_heading kml_real64 kml_description_raw_text kml_buffer kml_orientation_tilt kml_real64 kml_icon_refresh_interval kml_int16 kml_latlonaltbox_west kml_real64 kml_extended_data_xmlns_url kml_buffer kml_target_style_normal kml_buffer kml_lookat_range kml_real64 fme_start_angle kml_real64 kml_refresh_visibility kml_int16 kml_visibility kml_int16 kml_icon_href kml_buffer kml_link_name kml_buffer kml_balloon_color kml_char(10) kml_latlonbox_east kml_real64 kml_viewvolume_rightfov kml_int16 kml_lookat_longitude kml_real64 fme_text_size kml_real64 kml_tour kml_buffer kml_expires kml_datetime kml_link_snippet_max_lines kml_int16 kml_scale_z kml_real64 kml_liststyle_list_item_type kml_char(50) kml_tour_stop_flyto_mode kml_char(20) kml_timestamp_when kml_datetime kml_viewvolume_bottomfov kml_int16 kml_lod_min_fade_extent kml_real64 kml_screenxy_yunits kml_char(20) kml_tour_stop_view_perspective kml_char(15) kml_latlonaltbox_east kml_char(255) kml_polystyle_color kml_char(10) kml_gx_lookat_altitude_mode kml_char(50) kml_size_xunits kml_char(20) kml_iconstyle_scale kml_real64 kml_gx_duration kml_int16 kml_camera_heading kml_real64 kml_animated_update kml_buffer kml_extended_data_xmlns_prefix kml_buffer kml_orientation_roll kml_real64 kml_attribute_table_title kml_buffer kml_link_view_refresh_time kml_int16 kml_tour_stop_delay_type kml_char(10) kml_atom_link_href kml_buffer kml_gx_flyto_mode kml_char(10) kml_tour_stop_display_balloon kml_char(3) kml_overlayxy_y kml_real64 kml_imagepyramid_maxheight kml_int16 kml_gx_camera_altitude_mode kml_char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -129,7 +129,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="citygml_target{}.coordinate_list{}.coordinates xml_buffer citygml_specular_color xml_buffer fme_secondary_axis xml_real64 citygml_prefer_world_file xml_boolean fme_type xml_char(50) citygml_target{}.coordinate_list{}.ring xml_buffer citygml_emissive_color xml_buffer citygml_target xml_buffer fme_geometry xml_char(50) fme_text_string xml_char(50) fme_feature_type xml_char(50) citygml_diffuse_color xml_buffer fme_start_angle xml_real64 citygml_level_of_detail xml_ubyte citygml_image_uri xml_buffer citygml_theme xml_buffer citygml_lod_name xml_buffer citygml_transparency xml_real64 gml_id xml_buffer fme_fill_color xml_char(50) fme_sweep_angle xml_real64 fme_text_size xml_real64 citygml_target{}.world_to_texture_matrix xml_buffer citygml_border_color xml_buffer citygml_texture_type xml_char(16) citygml_orientation_matrix xml_buffer citygml_is_smooth xml_boolean citygml_transformation_matrix xml_buffer fme_dataset xml_char(50) citygml_wrap_mode xml_char(16) fme_primary_axis xml_real64 fme_basename xml_char(50) fme_rotation xml_real64 citygml_library_object xml_buffer citygml_shininess xml_real64 citygml_mime_type xml_buffer gml_parent_id xml_buffer citygml_is_front xml_boolean citygml_target{}.uri xml_buffer citygml_ambient_intensity xml_real64 fme_color xml_char(50)"
+#!   EXPOSABLE_ATTRS="citygml_target{}.world_to_texture_matrix xml_buffer citygml_emissive_color xml_buffer gml_parent_id xml_buffer citygml_library_object xml_buffer citygml_target xml_buffer fme_start_angle xml_real64 citygml_specular_color xml_buffer citygml_target{}.coordinate_list{}.ring xml_buffer citygml_wrap_mode xml_char(16) citygml_target{}.uri xml_buffer citygml_lod_name xml_buffer fme_type xml_char(50) fme_primary_axis xml_real64 citygml_shininess xml_real64 citygml_prefer_world_file xml_boolean citygml_transformation_matrix xml_buffer citygml_transparency xml_real64 fme_fill_color xml_char(50) gml_id xml_buffer citygml_is_smooth xml_boolean citygml_theme xml_buffer fme_text_size xml_real64 fme_secondary_axis xml_real64 fme_color xml_char(50) citygml_border_color xml_buffer citygml_orientation_matrix xml_buffer citygml_texture_type xml_char(16) citygml_image_uri xml_buffer fme_geometry xml_char(50) fme_rotation xml_real64 citygml_ambient_intensity xml_real64 fme_basename xml_char(50) fme_feature_type xml_char(50) fme_sweep_angle xml_real64 citygml_mime_type xml_buffer fme_dataset xml_char(50) citygml_level_of_detail xml_ubyte fme_text_string xml_char(50) citygml_target{}.coordinate_list{}.coordinates xml_buffer citygml_is_front xml_boolean citygml_diffuse_color xml_buffer"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS="[]=%~!@$&amp;#[^?*&apos;+()\\/&quot;:"
@@ -1036,8 +1036,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="25"
 #!   FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
-#!   POSITION="4422.7886878868785 -1810.5168751687513"
-#!   BOUNDING_RECT="4422.7886878868785 -1810.5168751687513 430 71"
+#!   POSITION="3407.1535315353144 -1185"
+#!   BOUNDING_RECT="3407.1535315353144 -1185 430 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="false"
 #!   KEYWORD="CITYGML_1"
@@ -1079,6 +1079,36 @@
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="26"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;returns data to the local projection system&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="743.25781257812548 -917.24806248062487"
+#!   TOP_LEFT="743.25781257812548 -917.24806248062487"
+#!   BOTTOM_RIGHT="1197.2578125781256 -918.24806248062487"
+#!   BOUNDING_RECT="743.25781257812548 -917.24806248062487 454 1"
+#!   ORDER="500000000000021"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="17"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="27"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;adjust coordinates&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2009.4359762347613 -1004.7489374893751"
+#!   TOP_LEFT="2009.4359762347613 -1004.7489374893751"
+#!   BOTTOM_RIGHT="2463.4359762347613 -1005.7489374893751"
+#!   BOUNDING_RECT="2009.4359762347613 -1004.7489374893751 454 1"
+#!   ORDER="500000000000022"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="21"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -1089,8 +1119,8 @@
 #!   IDENTIFIER="17"
 #!   TYPE="Reprojector"
 #!   VERSION="4"
-#!   POSITION="809.38309383093815 -1128.760687606876"
-#!   BOUNDING_RECT="809.38309383093815 -1128.760687606876 454 71"
+#!   POSITION="768.75768757687547 -1176"
+#!   BOUNDING_RECT="768.75768757687547 -1176 454 71"
 #!   ORDER="500000000000001"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1112,8 +1142,8 @@
 #!   IDENTIFIER="19"
 #!   TYPE="Deaggregator"
 #!   VERSION="10"
-#!   POSITION="1412.5141251412515 -1176"
-#!   BOUNDING_RECT="1412.5141251412515 -1176 454 71"
+#!   POSITION="1378.1387813878139 -1176"
+#!   BOUNDING_RECT="1378.1387813878139 -1176 454 71"
 #!   ORDER="500000000000002"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1149,8 +1179,8 @@
 #!   IDENTIFIER="21"
 #!   TYPE="Offsetter"
 #!   VERSION="1"
-#!   POSITION="2078.1457814578143 -1212.5121251212511"
-#!   BOUNDING_RECT="2078.1457814578143 -1212.5121251212511 454 71"
+#!   POSITION="2009.3950939509386 -1176"
+#!   BOUNDING_RECT="2009.3950939509386 -1176 454 71"
 #!   ORDER="500000000000003"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1184,291 +1214,11 @@
 #!     <XFORM_PARM PARM_NAME="ZOFF" PARM_VALUE="2.13"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="23"
-#!   TYPE="GeometryCoercer"
-#!   VERSION="6"
-#!   POSITION="2693.7769377693762 -1212.5121251212511"
-#!   BOUNDING_RECT="2693.7769377693762 -1212.5121251212511 454 71"
-#!   ORDER="500000000000004"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20714"
-#! >
-#!     <OUTPUT_FEAT NAME="COERCED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="UNTOUCHED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="GQUERY" PARM_VALUE="for&lt;space&gt;&lt;dollar&gt;geom&lt;space&gt;in&lt;space&gt;&lt;solidus&gt;&lt;solidus&gt;geometry&lt;lf&gt;where&lt;space&gt;&lt;dollar&gt;geom&lt;solidus&gt;count&lt;openparen&gt;parent::geometry&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;0&lt;lf&gt;return&lt;space&gt;number&lt;openparen&gt;&lt;dollar&gt;geom&lt;solidus&gt;&lt;at&gt;fme_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GQUERY_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="KIND" PARM_VALUE="fme_composite_surface"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryCoercer"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="27"
-#!   TYPE="GeometryValidator"
-#!   VERSION="6"
-#!   POSITION="3947.8488284882851 -1042.5112501125011"
-#!   BOUNDING_RECT="3947.8488284882851 -1042.5112501125011 454 71"
-#!   ORDER="500000000000005"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20714"
-#! >
-#!     <OUTPUT_FEAT NAME="PASSED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="FAILED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.count" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.issue_found" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.x" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.y" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.z" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.repair_state" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="REPAIRED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.count" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.issue_found" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.x" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.y" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.z" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <OUTPUT_FEAT NAME="ISSUE_LOCATIONS"/>
-#!     <FEAT_COLLAPSED COLLAPSED="3"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <OUTPUT_FEAT NAME="INVALID_PARTS"/>
-#!     <FEAT_COLLAPSED COLLAPSED="4"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.count" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.issue_found" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.x" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.y" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.z" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_issues{}.supplementary_info{}" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="5"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_PARM PARM_NAME="ISSUE_ATTR_NAME" PARM_VALUE="_issues"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PRESETS" PARM_VALUE="Surfaces And Solids"/>
-#!     <XFORM_PARM PARM_NAME="REPAIR" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="RULES" PARM_VALUE="SELF_INTERSECTING CHECK_HOLE_TOUCHING_POLYGON]No]CONNECT_Z_MODE_SI]FIRST_WINS]SELF_INTERSECTION_TOLERANCE]None]FME_CONTROLLER_QUERY_FILE]transformers&lt;backslash&gt;dependencies&lt;backslash&gt;geometryvalidator&lt;backslash&gt;SELF_INTERSECTING.fme PLANAR_SURFACE CHECK_AREA]DO_NOT_CHECK_AREA]TOLERANCE_MODE]AUTO]TOLERANCE]0.0]ANGULAR_TOLERANCE_MODE]AUTO]ANGULAR_TOLERANCE]0.0]FME_CONTROLLER_QUERY_FILE]transformers&lt;backslash&gt;dependencies&lt;backslash&gt;geometryvalidator&lt;backslash&gt;PLANAR_SURFACE.fme SOLID_VOID_REPAIR  SHELL_VALIDATION FLIP_APPEARANCE_MODE]FLIP_APPEARANCES]FME_CONTROLLER_QUERY_FILE]transformers&lt;backslash&gt;dependencies&lt;backslash&gt;geometryvalidator&lt;backslash&gt;SHELL_VALIDATION.fme MISSING_TEXTURE_COORDINATES  SURFACE_ORIENTATION  SOLID_ORIENTATION "/>
-#!     <XFORM_PARM PARM_NAME="SUMMARY" PARM_VALUE="Detailed"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryValidator"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="30"
-#!   TYPE="Deaggregator"
-#!   VERSION="10"
-#!   POSITION="1861.922914229141 -461"
-#!   BOUNDING_RECT="1861.922914229141 -461 454 71"
-#!   ORDER="500000000000006"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20714"
-#! >
-#!     <OUTPUT_FEAT NAME="DEAGGREGATED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge List Attributes"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use List Attribute Values"/>
-#!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
-#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_2"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="33"
-#!   TYPE="Orientor"
-#!   VERSION="3"
-#!   POSITION="3255.3889963899637 -461"
-#!   BOUNDING_RECT="3255.3889963899637 -461 454 71"
-#!   ORDER="500000000000008"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20714"
-#! >
-#!     <OUTPUT_FEAT NAME="ORIENTED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="FLIP_APPEARANCES_CHOICE" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="KIND" PARM_VALUE="REVERSE"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Orientor"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="32"
-#!   TYPE="Aggregator"
-#!   VERSION="15"
-#!   POSITION="3903.6840530905306 -539.69351568515674"
-#!   BOUNDING_RECT="3903.6840530905306 -539.69351568515674 454 71"
-#!   ORDER="500000000000009"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20714"
-#! >
-#!     <OUTPUT_FEAT NAME="AGGREGATE"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Use Attributes From One Feature"/>
-#!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="Homogeneous Collection (If Possible)"/>
-#!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CYCLE_ID_ERROR_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="_geometry_name"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Geometry - Assemble One Level"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="35"
-#!   TYPE="GeometryCoercer"
-#!   VERSION="6"
-#!   POSITION="2651.3440021900215 -514.56554690546898"
-#!   BOUNDING_RECT="2651.3440021900215 -514.56554690546898 454 71"
-#!   ORDER="500000000000010"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20714"
-#! >
-#!     <OUTPUT_FEAT NAME="COERCED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="UNTOUCHED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="GQUERY" PARM_VALUE="for&lt;space&gt;&lt;dollar&gt;geom&lt;space&gt;in&lt;space&gt;&lt;solidus&gt;&lt;solidus&gt;geometry&lt;lf&gt;where&lt;space&gt;&lt;dollar&gt;geom&lt;solidus&gt;count&lt;openparen&gt;parent::geometry&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;0&lt;lf&gt;return&lt;space&gt;number&lt;openparen&gt;&lt;dollar&gt;geom&lt;solidus&gt;&lt;at&gt;fme_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GQUERY_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="KIND" PARM_VALUE="fme_polygon"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryCoercer_2"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="40"
-#!   TYPE="FaceReplacer"
-#!   VERSION="1"
-#!   POSITION="3140.9692590675909 -805.32117196171953"
-#!   BOUNDING_RECT="3140.9692590675909 -805.32117196171953 454 71"
-#!   ORDER="500000000000011"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20714"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ANGULAR_TOLERANCE" PARM_VALUE="0.0"/>
-#!     <XFORM_PARM PARM_NAME="ANGULAR_TOLERANCE_CHOICE" PARM_VALUE="Automatic"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="THICKNESS_TOLERANCE" PARM_VALUE="0.0"/>
-#!     <XFORM_PARM PARM_NAME="THICKNESS_TOLERANCE_CHOICE" PARM_VALUE="Automatic"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FaceReplacer"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="43"
-#!   TYPE="GeometryCoercer"
-#!   VERSION="6"
-#!   POSITION="3963.7664407894081 -791.10238289882886"
-#!   BOUNDING_RECT="3963.7664407894081 -791.10238289882886 454 71"
-#!   ORDER="500000000000012"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="20714"
-#! >
-#!     <OUTPUT_FEAT NAME="COERCED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="UNTOUCHED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="GQUERY" PARM_VALUE="for&lt;space&gt;&lt;dollar&gt;geom&lt;space&gt;in&lt;space&gt;&lt;solidus&gt;&lt;solidus&gt;geometry&lt;lf&gt;where&lt;space&gt;&lt;dollar&gt;geom&lt;solidus&gt;count&lt;openparen&gt;parent::geometry&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;0&lt;lf&gt;return&lt;space&gt;number&lt;openparen&gt;&lt;dollar&gt;geom&lt;solidus&gt;&lt;at&gt;fme_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GQUERY_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="KIND" PARM_VALUE="fme_brep_solid"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryCoercer_3"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="46"
 #!   TYPE="SolidBuilder"
 #!   VERSION="3"
-#!   POSITION="3028.9149172741727 -1678.0767032670324"
-#!   BOUNDING_RECT="3028.9149172741727 -1678.0767032670324 454 71"
+#!   POSITION="2700.7866359913587 -1176"
+#!   BOUNDING_RECT="2700.7866359913587 -1176 454 71"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1550,130 +1300,10 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="24"
-#!   SOURCE_NODE="21"
-#!   TARGET_NODE="23"
-#!   SOURCE_PORT_DESC="fo 0 OFFSET"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="47"
 #!   SOURCE_NODE="21"
 #!   TARGET_NODE="46"
 #!   SOURCE_PORT_DESC="fo 0 OFFSET"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="31"
-#!   SOURCE_NODE="23"
-#!   TARGET_NODE="30"
-#!   SOURCE_PORT_DESC="fo 0 COERCED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="38"
-#!   SOURCE_NODE="30"
-#!   TARGET_NODE="35"
-#!   SOURCE_PORT_DESC="fo 0 DEAGGREGATED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="44"
-#!   SOURCE_NODE="32"
-#!   TARGET_NODE="43"
-#!   SOURCE_PORT_DESC="fo 0 AGGREGATE"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="41"
-#!   SOURCE_NODE="33"
-#!   TARGET_NODE="40"
-#!   SOURCE_PORT_DESC="fo 0 ORIENTED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="39"
-#!   SOURCE_NODE="35"
-#!   TARGET_NODE="33"
-#!   SOURCE_PORT_DESC="fo 0 COERCED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="42"
-#!   SOURCE_NODE="40"
-#!   TARGET_NODE="32"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="45"
-#!   SOURCE_NODE="43"
-#!   TARGET_NODE="27"
-#!   SOURCE_PORT_DESC="fo 0 COERCED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -1960,7 +1590,7 @@ CITYGML_1_DATASET "$(DestDataset_CITYGML_1)"
 #! END_WB_HEADER
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)referenciamento_sketchup.log"
+LOG_FILENAME "$(FME_MF_DIR)referencing_sketchup.log"
 LOG_APPEND NO
 LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
@@ -1982,56 +1612,56 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME referenciamento_sketchup
+MACRO WORKSPACE_NAME referencing_sketchup
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
+OGCKML_1_DEF GroundOverlay
+# -------------------------------------------------------------------------
+OGCKML_1_DEF Tour
+# -------------------------------------------------------------------------
 OGCKML_1_DEF ScreenOverlay
-# -------------------------------------------------------------------------
-OGCKML_1_DEF Document
-# -------------------------------------------------------------------------
-OGCKML_1_DEF PhotoOverlay
-# -------------------------------------------------------------------------
-OGCKML_1_DEF Wait
-# -------------------------------------------------------------------------
-OGCKML_1_DEF Style
-# -------------------------------------------------------------------------
-OGCKML_1_DEF StyleMap
-# -------------------------------------------------------------------------
-OGCKML_1_DEF SoundCue
-# -------------------------------------------------------------------------
-OGCKML_1_DEF AnimatedUpdate
 # -------------------------------------------------------------------------
 OGCKML_1_DEF Folder
 # -------------------------------------------------------------------------
 OGCKML_1_DEF FlyTo
 # -------------------------------------------------------------------------
-OGCKML_1_DEF Tour
-# -------------------------------------------------------------------------
-OGCKML_1_DEF Placemark
-# -------------------------------------------------------------------------
-OGCKML_1_DEF GroundOverlay
-# -------------------------------------------------------------------------
-OGCKML_1_DEF TourControl
+OGCKML_1_DEF AnimatedUpdate
 # -------------------------------------------------------------------------
 OGCKML_1_DEF NetworkLink
 # -------------------------------------------------------------------------
+OGCKML_1_DEF Placemark
+# -------------------------------------------------------------------------
+OGCKML_1_DEF PhotoOverlay
+# -------------------------------------------------------------------------
+OGCKML_1_DEF Document
+# -------------------------------------------------------------------------
+OGCKML_1_DEF Wait
+# -------------------------------------------------------------------------
+OGCKML_1_DEF SoundCue
+# -------------------------------------------------------------------------
+OGCKML_1_DEF TourControl
+# -------------------------------------------------------------------------
+OGCKML_1_DEF Style
+# -------------------------------------------------------------------------
+OGCKML_1_DEF StyleMap
+# -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD $(DATASET_KEYWORD_OGCKML_1)   INPUT FEATURE_TYPE *    ROUTE OGCKML OGCKML_1::ScreenOverlay multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::ScreenOverlay ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Document multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Document ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::PhotoOverlay multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::PhotoOverlay ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Wait multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Wait ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Style multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Style ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::StyleMap multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::StyleMap ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::SoundCue multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::SoundCue ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::AnimatedUpdate multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::AnimatedUpdate ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Folder multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Folder ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::FlyTo multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::FlyTo ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Tour multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Tour ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Placemark multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Placemark ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::GroundOverlay multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::GroundOverlay ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::TourControl multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::TourControl ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::NetworkLink multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::NetworkLink ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD $(DATASET_KEYWORD_OGCKML_1)   INPUT FEATURE_TYPE *    ROUTE OGCKML OGCKML_1::GroundOverlay multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::GroundOverlay ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Tour multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Tour ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::ScreenOverlay multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::ScreenOverlay ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Folder multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Folder ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::FlyTo multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::FlyTo ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::AnimatedUpdate multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::AnimatedUpdate ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::NetworkLink multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::NetworkLink ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Placemark multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Placemark ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::PhotoOverlay multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::PhotoOverlay ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Document multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Document ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Wait multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Wait ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::SoundCue multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::SoundCue ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::TourControl multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::TourControl ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::Style multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Style ALIAS_GEOMETRY    ROUTE OGCKML OGCKML_1::StyleMap multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::StyleMap ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+OGCKML_1_MERGE_DEF OGCKML_1::GroundOverlay EXACT GroundOverlay
+OGCKML_1_MERGE_DEF OGCKML_1::Tour EXACT Tour
 OGCKML_1_MERGE_DEF OGCKML_1::ScreenOverlay EXACT ScreenOverlay
-OGCKML_1_MERGE_DEF OGCKML_1::Document EXACT Document
-OGCKML_1_MERGE_DEF OGCKML_1::PhotoOverlay EXACT PhotoOverlay
-OGCKML_1_MERGE_DEF OGCKML_1::Wait EXACT Wait
-OGCKML_1_MERGE_DEF OGCKML_1::Style EXACT Style
-OGCKML_1_MERGE_DEF OGCKML_1::StyleMap EXACT StyleMap
-OGCKML_1_MERGE_DEF OGCKML_1::SoundCue EXACT SoundCue
-OGCKML_1_MERGE_DEF OGCKML_1::AnimatedUpdate EXACT AnimatedUpdate
 OGCKML_1_MERGE_DEF OGCKML_1::Folder EXACT Folder
 OGCKML_1_MERGE_DEF OGCKML_1::FlyTo EXACT FlyTo
-OGCKML_1_MERGE_DEF OGCKML_1::Tour EXACT Tour
-OGCKML_1_MERGE_DEF OGCKML_1::Placemark EXACT Placemark
-OGCKML_1_MERGE_DEF OGCKML_1::GroundOverlay EXACT GroundOverlay
-OGCKML_1_MERGE_DEF OGCKML_1::TourControl EXACT TourControl
+OGCKML_1_MERGE_DEF OGCKML_1::AnimatedUpdate EXACT AnimatedUpdate
 OGCKML_1_MERGE_DEF OGCKML_1::NetworkLink EXACT NetworkLink
+OGCKML_1_MERGE_DEF OGCKML_1::Placemark EXACT Placemark
+OGCKML_1_MERGE_DEF OGCKML_1::PhotoOverlay EXACT PhotoOverlay
+OGCKML_1_MERGE_DEF OGCKML_1::Document EXACT Document
+OGCKML_1_MERGE_DEF OGCKML_1::Wait EXACT Wait
+OGCKML_1_MERGE_DEF OGCKML_1::SoundCue EXACT SoundCue
+OGCKML_1_MERGE_DEF OGCKML_1::TourControl EXACT TourControl
+OGCKML_1_MERGE_DEF OGCKML_1::Style EXACT Style
+OGCKML_1_MERGE_DEF OGCKML_1::StyleMap EXACT StyleMap
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "NetworkLink_OGCKML_1 Splitter"    INPUT FEATURE_TYPE NetworkLink
@@ -2091,29 +1721,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Offsetter_OffsetterInput    INPUT  FEAT
 FACTORY_DEF * TeeFactory    FACTORY_NAME Offsetter_Offsetter    INPUT FEATURE_TYPE ___TOOFFSETTER___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE ___TOREJECTOR___       $(Offsetter_OFFSET)
 FACTORY_DEF * TestFactory    FACTORY_NAME Offsetter_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT FAILED FEATURE_TYPE Offsetter_Offset       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 FACTORY_DEF * TestFactory    FACTORY_NAME Offsetter_PointCloudOffsetter    INPUT FEATURE_TYPE Offsetter_Offset    TEST &fme_type == "fme_point_cloud"    TEST "" != ""    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE Offsetter_OFFSET       @TransformPointCloud(OFFSET,)    OUTPUT FAILED FEATURE_TYPE Offsetter_OFFSET
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Offsetter OFFSET Splitter"   INPUT FEATURE_TYPE Offsetter_OFFSET   OUTPUT FEATURE_TYPE Offsetter_OFFSET_0_W5NRx4Ntgk0=   OUTPUT FEATURE_TYPE Offsetter_OFFSET_1_wI9Izqc5xFA=
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} GeometryBuilderFactory    INPUT  FEATURE_TYPE Offsetter_OFFSET_1_wI9Izqc5xFA=    FACTORY_NAME SolidBuilder    GROUP_BY { _geometry_name }    FLUSH_WHEN_GROUPS_CHANGE No    ATTR_ACCUM_MODE "ONE"    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    UNIFIED_LIST YES    DROP_HOLES Yes    HOLE_ATTR "_is_void"    MODE SOLID    OUTPUT SOLID FEATURE_TYPE SolidBuilder_SOLID
-# -------------------------------------------------------------------------
-FACTORY_DEF * GQueryFactory    FACTORY_NAME GeometryCoercer    INPUT  FEATURE_TYPE Offsetter_OFFSET_0_W5NRx4Ntgk0=    GQUERY "@EvaluateExpression(FDIV,STRING_ENCODED,for<space><dollar>geom<space>in<space><solidus><solidus>geometry<lf>where<space><dollar>geom<solidus>count<openparen>parent::geometry<closeparen><space>=<space>0<lf>return<space>number<openparen><dollar>geom<solidus><at>fme_id<closeparen>,GeometryCoercer)"    ACTION COERCE_GEOMETRY    PARAMETER fme_composite_surface BASENAME GeometryCoercer    OUTPUT RESULT FEATURE_TYPE GeometryCoercer_COERCED
-# -------------------------------------------------------------------------
-FACTORY_DEF * DeaggregateFactory    FACTORY_NAME Deaggregator_2    INPUT  FEATURE_TYPE GeometryCoercer_COERCED    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES Yes    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    OUTPUT POINT FEATURE_TYPE Deaggregator_2_DEAGGREGATED    OUTPUT LINE FEATURE_TYPE Deaggregator_2_DEAGGREGATED    OUTPUT POLYGON FEATURE_TYPE Deaggregator_2_DEAGGREGATED    OUTPUT DONUT FEATURE_TYPE Deaggregator_2_DEAGGREGATED    OUTPUT AGGREGATE FEATURE_TYPE Deaggregator_2_DEAGGREGATED
-# -------------------------------------------------------------------------
-FACTORY_DEF * GQueryFactory    FACTORY_NAME GeometryCoercer_2    INPUT  FEATURE_TYPE Deaggregator_2_DEAGGREGATED    GQUERY "@EvaluateExpression(FDIV,STRING_ENCODED,for<space><dollar>geom<space>in<space><solidus><solidus>geometry<lf>where<space><dollar>geom<solidus>count<openparen>parent::geometry<closeparen><space>=<space>0<lf>return<space>number<openparen><dollar>geom<solidus><at>fme_id<closeparen>,GeometryCoercer_2)"    ACTION COERCE_GEOMETRY    PARAMETER fme_polygon BASENAME GeometryCoercer_2    OUTPUT RESULT FEATURE_TYPE GeometryCoercer_2_COERCED
-# -------------------------------------------------------------------------
-INCLUDE [    if { ({REVERSE} == {REVERSE}) } {       puts {MACRO ORIENT_FUNC @Orient(REVERSE, REVERSE_ALL,  FLIP_APPEARANCES)}    } else {       puts {MACRO ORIENT_FUNC @Orient(REVERSE)}    } ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Orientor    INPUT  FEATURE_TYPE GeometryCoercer_2_COERCED    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)         $(ORIENT_FUNC)
-FACTORY_DEF * TestFactory    FACTORY_NAME Orientor_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT FAILED FEATURE_TYPE Orientor_ORIENTED       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
-# -------------------------------------------------------------------------
-INCLUDE [          if { {AUTO} == {CUSTOM} } {             puts {MACRO THICKNESS_TOLERANCE " 0.0"};          }          elseif { {AUTO} == {IGNORE} } {             puts {MACRO THICKNESS_TOLERANCE " -2"};          }          else {             puts {MACRO THICKNESS_TOLERANCE " -1"};          };          if { {AUTO} == {CUSTOM} } {             puts {MACRO ANGULAR_TOLERANCE " 0.0"};          }          elseif { {AUTO} == {IGNORE} } {             puts {MACRO ANGULAR_TOLERANCE " -2"};          }          else {             puts {MACRO ANGULAR_TOLERANCE " -1"};          };          ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME FaceReplacer_FaceCreator    INPUT  FEATURE_TYPE Orientor_ORIENTED    OUTPUT FEATURE_TYPE ___TOREJECTOR___          @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)          @GeometryType(fme_face, $(THICKNESS_TOLERANCE), $(ANGULAR_TOLERANCE))
-FACTORY_DEF * TestFactory    FACTORY_NAME FaceReplacer_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT FAILED FEATURE_TYPE FaceReplacer_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE FaceReplacer_OUTPUT    MODE ONE_LEVEL    GROUP_BY { _geometry_name }    FLUSH_WHEN_GROUPS_CHANGE No    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    SEPARATOR <comma>    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
-# -------------------------------------------------------------------------
-FACTORY_DEF * GQueryFactory    FACTORY_NAME GeometryCoercer_3    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    GQUERY "@EvaluateExpression(FDIV,STRING_ENCODED,for<space><dollar>geom<space>in<space><solidus><solidus>geometry<lf>where<space><dollar>geom<solidus>count<openparen>parent::geometry<closeparen><space>=<space>0<lf>return<space>number<openparen><dollar>geom<solidus><at>fme_id<closeparen>,GeometryCoercer_3)"    ACTION COERCE_GEOMETRY    PARAMETER fme_brep_solid BASENAME GeometryCoercer_3    OUTPUT RESULT FEATURE_TYPE GeometryCoercer_3_COERCED
-# -------------------------------------------------------------------------
-FACTORY_DEF * GeometryValidationFactory    FACTORY_NAME GeometryValidator    INPUT  FEATURE_TYPE GeometryCoercer_3_COERCED    ISSUE_ATTR_NAME "_issues"    REPAIR_MODE    VALIDATION_ISSUE SELF_INTERSECTING CHECK_HOLE_TOUCHING_POLYGON]No]CONNECT_Z_MODE_SI]FIRST_WINS]SELF_INTERSECTION_TOLERANCE]None     VALIDATION_ISSUE PLANAR_SURFACE CHECK_AREA]DO_NOT_CHECK_AREA]TOLERANCE_MODE]AUTO]TOLERANCE]0.0]ANGULAR_TOLERANCE_MODE]AUTO]ANGULAR_TOLERANCE]0.0     VALIDATION_ISSUE SOLID_VOID_REPAIR      VALIDATION_ISSUE SHELL_VALIDATION FLIP_APPEARANCE_MODE]FLIP_APPEARANCES     VALIDATION_ISSUE MISSING_TEXTURE_COORDINATES      VALIDATION_ISSUE SURFACE_ORIENTATION      VALIDATION_ISSUE SOLID_ORIENTATION    REJECT_INVALID Yes
+FACTORY_DEF {*} GeometryBuilderFactory    INPUT  FEATURE_TYPE Offsetter_OFFSET    FACTORY_NAME SolidBuilder    GROUP_BY { _geometry_name }    FLUSH_WHEN_GROUPS_CHANGE No    ATTR_ACCUM_MODE "ONE"    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    UNIFIED_LIST YES    DROP_HOLES Yes    HOLE_ATTR "_is_void"    MODE SOLID    OUTPUT SOLID FEATURE_TYPE SolidBuilder_SOLID
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC SolidBuilder_SOLID TO CITYGML __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>building<closeparen> COORDINATE_SYSTEM TMPOA_new GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
